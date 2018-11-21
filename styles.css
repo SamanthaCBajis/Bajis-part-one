@@ -1,0 +1,20 @@
+
+html {
+    background-color: #F0ECEE;
+    background-image: url(bulldog.jpg);
+    background-size: cover;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+mark.red {
+    background: none;
+    color:#FF4850;
+}
+p {
+    font-weight: 300;
+}

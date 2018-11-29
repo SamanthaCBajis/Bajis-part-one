@@ -1,0 +1,131 @@
+
+/* Mobile Display */
+
+body {
+    background-image: none;
+    background-color: #F0ECEE;
+    font-family: 'Fira Sans', sans-serif;
+}
+button {
+    width: 100%;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #FF4850;
+    color: white;
+    height: 55px;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #CCC;
+    color: #FF4850;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    font-weight: 400;
+    font-size: 23px;
+}
+ul {
+    padding-left: 0px;
+}
+li {
+    list-style-type: none;
+}
+li a {
+    font-weight: 400;
+    text-decoration: none;
+    color: #88898B;
+    font-size: 18px;
+}
+a:hover {
+    color: #FF4850;
+}
+.lineOne {
+    font-weight: 600;
+    font-size: 32px;
+    width: 90%;
+    margin-top: 38px;
+}
+.lineTwo {
+    font-weight: 400;
+    font-size: 14px;
+    width: 90%;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    color: #88898B;
+}
+mark.red {
+    color:#FF4850;
+    background: none;
+}
+
+/* Desktop Display */
+
+@media screen and (min-width: 768px) {
+body {
+    background-image: url('bulldog.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+button {
+    width: auto;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 15px;
+    height: 55px;
+    margin: 32px;
+     }
+}
+@media screen and (min-width: 768px) {
+.heading {
+    font-weight: 400;
+    font-size: 21px;
+    padding-top: 20px;
+    padding-left: 40px;
+     }
+}
+@media screen and (min-width: 768px) {
+ul {
+    text-align: right;
+    margin-top: -70px;
+    }   
+}
+@media screen and (min-width: 768px) {
+li {
+    list-style-type: none;
+    display: inline;
+    }
+}
+
+@media screen and (min-width: 768px) {
+li a {
+    font-weight: 400;
+    text-decoration: none;
+    padding: 6px;
+    }
+}
+@media screen and (min-width: 768px) {
+.lineOne {
+    font-weight: 600;
+    font-size: 35px;
+    width: 35%;
+    margin-top: 100px;   
+    padding-left: 40px; 
+    }
+}
+@media screen and (min-width: 768px) {
+.lineTwo {
+    font-weight: 400;
+    font-size: 18px;
+    width: 35%;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    }
+}
